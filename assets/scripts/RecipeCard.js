@@ -131,27 +131,27 @@ class RecipeCard extends HTMLElement {
     let imageSource;
     let altText;
     if (data.rating == 5) {
-      imageSource="/assets/images/icons/5-star.svg";
+      imageSource="./assets/images/icons/5-star.svg";
       altText="5 stars";
     }
     else if (data.rating == 4) {
-      imageSource="/assets/images/icons/4-star.svg";
+      imageSource="./assets/images/icons/4-star.svg";
       altText="4 stars";
     }
     else if (data.rating == 3) {
-      imageSource="/assets/images/icons/3-star.svg";
+      imageSource="./assets/images/icons/3-star.svg";
       altText="3 stars";
     }
     else if (data.rating == 2) {
-      imageSource="/assets/images/icons/2-star.svg";
+      imageSource="./assets/images/icons/2-star.svg";
       altText="2 stars";
     }
     else if (data.rating == 1) {
-      imageSource="/assets/images/icons/1-star.svg";
+      imageSource="./assets/images/icons/1-star.svg";
       altText="1 star";
     }
     else {
-      imageSource="/assets/images/icons/0-star.svg";
+      imageSource="./assets/images/icons/0-star.svg";
       altText="0 stars";
     }
     currArticle.innerHTML = `
